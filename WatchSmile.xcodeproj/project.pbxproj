@@ -8,12 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		890B9DDE1AE1A6D200511D5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890B9DDD1AE1A6D200511D5F /* AppDelegate.swift */; };
-		890B9DE01AE1A6D200511D5F /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890B9DDF1AE1A6D200511D5F /* FirstViewController.swift */; };
-		890B9DE21AE1A6D200511D5F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890B9DE11AE1A6D200511D5F /* SecondViewController.swift */; };
 		890B9DE51AE1A6D200511D5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 890B9DE31AE1A6D200511D5F /* Main.storyboard */; };
 		890B9DE71AE1A6D200511D5F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 890B9DE61AE1A6D200511D5F /* Images.xcassets */; };
 		890B9DEA1AE1A6D200511D5F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 890B9DE81AE1A6D200511D5F /* LaunchScreen.xib */; };
 		890B9DF61AE1A6D200511D5F /* WatchSmileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890B9DF51AE1A6D200511D5F /* WatchSmileTests.swift */; };
+		890B9E081AE1A72700511D5F /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890B9E071AE1A72700511D5F /* InterfaceController.swift */; };
+		890B9E0A1AE1A72700511D5F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 890B9E091AE1A72700511D5F /* Images.xcassets */; };
+		890B9E0E1AE1A72700511D5F /* WatchSmile WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 890B9E0D1AE1A72700511D5F /* WatchSmile WatchKit App.app */; };
+		890B9E161AE1A72700511D5F /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 890B9E141AE1A72700511D5F /* Interface.storyboard */; };
+		890B9E181AE1A72700511D5F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 890B9E171AE1A72700511D5F /* Images.xcassets */; };
+		890B9E1B1AE1A72700511D5F /* WatchSmile WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 890B9E031AE1A72700511D5F /* WatchSmile WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		890B9E341AE1A77700511D5F /* GTMNSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 890B9E261AE1A77700511D5F /* GTMNSString+HTML.m */; };
+		890B9E351AE1A77700511D5F /* GTMNSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 890B9E261AE1A77700511D5F /* GTMNSString+HTML.m */; };
+		890B9E361AE1A77700511D5F /* MWFeedInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 890B9E281AE1A77700511D5F /* MWFeedInfo.m */; };
+		890B9E371AE1A77700511D5F /* MWFeedInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 890B9E281AE1A77700511D5F /* MWFeedInfo.m */; };
+		890B9E381AE1A77700511D5F /* MWFeedItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 890B9E2A1AE1A77700511D5F /* MWFeedItem.m */; };
+		890B9E391AE1A77700511D5F /* MWFeedItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 890B9E2A1AE1A77700511D5F /* MWFeedItem.m */; };
+		890B9E3A1AE1A77700511D5F /* MWFeedParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 890B9E2D1AE1A77700511D5F /* MWFeedParser.m */; };
+		890B9E3B1AE1A77700511D5F /* MWFeedParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 890B9E2D1AE1A77700511D5F /* MWFeedParser.m */; };
+		890B9E3C1AE1A77700511D5F /* NSDate+InternetDateTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 890B9E2F1AE1A77700511D5F /* NSDate+InternetDateTime.m */; };
+		890B9E3D1AE1A77700511D5F /* NSDate+InternetDateTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 890B9E2F1AE1A77700511D5F /* NSDate+InternetDateTime.m */; };
+		890B9E3E1AE1A77700511D5F /* NSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 890B9E311AE1A77700511D5F /* NSString+HTML.m */; };
+		890B9E3F1AE1A77700511D5F /* NSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 890B9E311AE1A77700511D5F /* NSString+HTML.m */; };
+		890B9E401AE1A77700511D5F /* NSString+XMLEntities.m in Sources */ = {isa = PBXBuildFile; fileRef = 890B9E331AE1A77700511D5F /* NSString+XMLEntities.m */; };
+		890B9E411AE1A77700511D5F /* NSString+XMLEntities.m in Sources */ = {isa = PBXBuildFile; fileRef = 890B9E331AE1A77700511D5F /* NSString+XMLEntities.m */; };
+		890B9E441AE1AB3B00511D5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890B9E431AE1AB3B00511D5F /* ViewController.swift */; };
+		890B9E451AE1AB3B00511D5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890B9E431AE1AB3B00511D5F /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,20 +44,72 @@
 			remoteGlobalIDString = 890B9DD71AE1A6D200511D5F;
 			remoteInfo = WatchSmile;
 		};
+		890B9E0F1AE1A72700511D5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 890B9DD01AE1A6D200511D5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 890B9E0C1AE1A72700511D5F;
+			remoteInfo = "WatchSmile WatchKit App";
+		};
+		890B9E191AE1A72700511D5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 890B9DD01AE1A6D200511D5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 890B9E021AE1A72700511D5F;
+			remoteInfo = "WatchSmile WatchKit Extension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		890B9E221AE1A72700511D5F /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				890B9E1B1AE1A72700511D5F /* WatchSmile WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		890B9DD81AE1A6D200511D5F /* WatchSmile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchSmile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		890B9DDC1AE1A6D200511D5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		890B9DDD1AE1A6D200511D5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		890B9DDF1AE1A6D200511D5F /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		890B9DE11AE1A6D200511D5F /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		890B9DE41AE1A6D200511D5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		890B9DE61AE1A6D200511D5F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		890B9DE91AE1A6D200511D5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		890B9DEF1AE1A6D200511D5F /* WatchSmileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatchSmileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		890B9DF41AE1A6D200511D5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		890B9DF51AE1A6D200511D5F /* WatchSmileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchSmileTests.swift; sourceTree = "<group>"; };
+		890B9E031AE1A72700511D5F /* WatchSmile WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WatchSmile WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		890B9E061AE1A72700511D5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		890B9E071AE1A72700511D5F /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		890B9E091AE1A72700511D5F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		890B9E0D1AE1A72700511D5F /* WatchSmile WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WatchSmile WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		890B9E131AE1A72700511D5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		890B9E151AE1A72700511D5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		890B9E171AE1A72700511D5F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		890B9E231AE1A77600511D5F /* WatchSmile-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WatchSmile-Bridging-Header.h"; sourceTree = "<group>"; };
+		890B9E241AE1A77600511D5F /* WatchSmile WatchKit Extension-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WatchSmile WatchKit Extension-Bridging-Header.h"; sourceTree = "<group>"; };
+		890B9E251AE1A77700511D5F /* GTMNSString+HTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GTMNSString+HTML.h"; sourceTree = "<group>"; };
+		890B9E261AE1A77700511D5F /* GTMNSString+HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSString+HTML.m"; sourceTree = "<group>"; };
+		890B9E271AE1A77700511D5F /* MWFeedInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWFeedInfo.h; sourceTree = "<group>"; };
+		890B9E281AE1A77700511D5F /* MWFeedInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWFeedInfo.m; sourceTree = "<group>"; };
+		890B9E291AE1A77700511D5F /* MWFeedItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWFeedItem.h; sourceTree = "<group>"; };
+		890B9E2A1AE1A77700511D5F /* MWFeedItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWFeedItem.m; sourceTree = "<group>"; };
+		890B9E2B1AE1A77700511D5F /* MWFeedParser_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWFeedParser_Private.h; sourceTree = "<group>"; };
+		890B9E2C1AE1A77700511D5F /* MWFeedParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWFeedParser.h; sourceTree = "<group>"; };
+		890B9E2D1AE1A77700511D5F /* MWFeedParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWFeedParser.m; sourceTree = "<group>"; };
+		890B9E2E1AE1A77700511D5F /* NSDate+InternetDateTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+InternetDateTime.h"; sourceTree = "<group>"; };
+		890B9E2F1AE1A77700511D5F /* NSDate+InternetDateTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+InternetDateTime.m"; sourceTree = "<group>"; };
+		890B9E301AE1A77700511D5F /* NSString+HTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HTML.h"; sourceTree = "<group>"; };
+		890B9E311AE1A77700511D5F /* NSString+HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HTML.m"; sourceTree = "<group>"; };
+		890B9E321AE1A77700511D5F /* NSString+XMLEntities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+XMLEntities.h"; sourceTree = "<group>"; };
+		890B9E331AE1A77700511D5F /* NSString+XMLEntities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XMLEntities.m"; sourceTree = "<group>"; };
+		890B9E431AE1AB3B00511D5F /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +127,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		890B9E001AE1A72700511D5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -63,6 +142,8 @@
 			children = (
 				890B9DDA1AE1A6D200511D5F /* WatchSmile */,
 				890B9DF21AE1A6D200511D5F /* WatchSmileTests */,
+				890B9E041AE1A72700511D5F /* WatchSmile WatchKit Extension */,
+				890B9E111AE1A72700511D5F /* WatchSmile WatchKit App */,
 				890B9DD91AE1A6D200511D5F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,6 +153,8 @@
 			children = (
 				890B9DD81AE1A6D200511D5F /* WatchSmile.app */,
 				890B9DEF1AE1A6D200511D5F /* WatchSmileTests.xctest */,
+				890B9E031AE1A72700511D5F /* WatchSmile WatchKit Extension.appex */,
+				890B9E0D1AE1A72700511D5F /* WatchSmile WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,13 +162,15 @@
 		890B9DDA1AE1A6D200511D5F /* WatchSmile */ = {
 			isa = PBXGroup;
 			children = (
+				890B9E421AE1A78600511D5F /* Classes */,
 				890B9DDD1AE1A6D200511D5F /* AppDelegate.swift */,
-				890B9DDF1AE1A6D200511D5F /* FirstViewController.swift */,
-				890B9DE11AE1A6D200511D5F /* SecondViewController.swift */,
 				890B9DE31AE1A6D200511D5F /* Main.storyboard */,
+				890B9E431AE1AB3B00511D5F /* ViewController.swift */,
 				890B9DE61AE1A6D200511D5F /* Images.xcassets */,
 				890B9DE81AE1A6D200511D5F /* LaunchScreen.xib */,
 				890B9DDB1AE1A6D200511D5F /* Supporting Files */,
+				890B9E231AE1A77600511D5F /* WatchSmile-Bridging-Header.h */,
+				890B9E241AE1A77600511D5F /* WatchSmile WatchKit Extension-Bridging-Header.h */,
 			);
 			path = WatchSmile;
 			sourceTree = "<group>";
@@ -115,6 +200,64 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		890B9E041AE1A72700511D5F /* WatchSmile WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				890B9E071AE1A72700511D5F /* InterfaceController.swift */,
+				890B9E091AE1A72700511D5F /* Images.xcassets */,
+				890B9E051AE1A72700511D5F /* Supporting Files */,
+			);
+			path = "WatchSmile WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		890B9E051AE1A72700511D5F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				890B9E061AE1A72700511D5F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		890B9E111AE1A72700511D5F /* WatchSmile WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				890B9E141AE1A72700511D5F /* Interface.storyboard */,
+				890B9E171AE1A72700511D5F /* Images.xcassets */,
+				890B9E121AE1A72700511D5F /* Supporting Files */,
+			);
+			path = "WatchSmile WatchKit App";
+			sourceTree = "<group>";
+		};
+		890B9E121AE1A72700511D5F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				890B9E131AE1A72700511D5F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		890B9E421AE1A78600511D5F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				890B9E251AE1A77700511D5F /* GTMNSString+HTML.h */,
+				890B9E261AE1A77700511D5F /* GTMNSString+HTML.m */,
+				890B9E271AE1A77700511D5F /* MWFeedInfo.h */,
+				890B9E281AE1A77700511D5F /* MWFeedInfo.m */,
+				890B9E291AE1A77700511D5F /* MWFeedItem.h */,
+				890B9E2A1AE1A77700511D5F /* MWFeedItem.m */,
+				890B9E2B1AE1A77700511D5F /* MWFeedParser_Private.h */,
+				890B9E2C1AE1A77700511D5F /* MWFeedParser.h */,
+				890B9E2D1AE1A77700511D5F /* MWFeedParser.m */,
+				890B9E2E1AE1A77700511D5F /* NSDate+InternetDateTime.h */,
+				890B9E2F1AE1A77700511D5F /* NSDate+InternetDateTime.m */,
+				890B9E301AE1A77700511D5F /* NSString+HTML.h */,
+				890B9E311AE1A77700511D5F /* NSString+HTML.m */,
+				890B9E321AE1A77700511D5F /* NSString+XMLEntities.h */,
+				890B9E331AE1A77700511D5F /* NSString+XMLEntities.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -125,10 +268,12 @@
 				890B9DD41AE1A6D200511D5F /* Sources */,
 				890B9DD51AE1A6D200511D5F /* Frameworks */,
 				890B9DD61AE1A6D200511D5F /* Resources */,
+				890B9E221AE1A72700511D5F /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				890B9E1A1AE1A72700511D5F /* PBXTargetDependency */,
 			);
 			name = WatchSmile;
 			productName = WatchSmile;
@@ -153,6 +298,39 @@
 			productReference = 890B9DEF1AE1A6D200511D5F /* WatchSmileTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		890B9E021AE1A72700511D5F /* WatchSmile WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 890B9E1F1AE1A72700511D5F /* Build configuration list for PBXNativeTarget "WatchSmile WatchKit Extension" */;
+			buildPhases = (
+				890B9DFF1AE1A72700511D5F /* Sources */,
+				890B9E001AE1A72700511D5F /* Frameworks */,
+				890B9E011AE1A72700511D5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				890B9E101AE1A72700511D5F /* PBXTargetDependency */,
+			);
+			name = "WatchSmile WatchKit Extension";
+			productName = "WatchSmile WatchKit Extension";
+			productReference = 890B9E031AE1A72700511D5F /* WatchSmile WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		890B9E0C1AE1A72700511D5F /* WatchSmile WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 890B9E1C1AE1A72700511D5F /* Build configuration list for PBXNativeTarget "WatchSmile WatchKit App" */;
+			buildPhases = (
+				890B9E0B1AE1A72700511D5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WatchSmile WatchKit App";
+			productName = "WatchSmile WatchKit App";
+			productReference = 890B9E0D1AE1A72700511D5F /* WatchSmile WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -164,10 +342,19 @@
 				TargetAttributes = {
 					890B9DD71AE1A6D200511D5F = {
 						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = 5R3X245WBY;
 					};
 					890B9DEE1AE1A6D200511D5F = {
 						CreatedOnToolsVersion = 6.3;
 						TestTargetID = 890B9DD71AE1A6D200511D5F;
+					};
+					890B9E021AE1A72700511D5F = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = 5R3X245WBY;
+					};
+					890B9E0C1AE1A72700511D5F = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = 5R3X245WBY;
 					};
 				};
 			};
@@ -186,6 +373,8 @@
 			targets = (
 				890B9DD71AE1A6D200511D5F /* WatchSmile */,
 				890B9DEE1AE1A6D200511D5F /* WatchSmileTests */,
+				890B9E021AE1A72700511D5F /* WatchSmile WatchKit Extension */,
+				890B9E0C1AE1A72700511D5F /* WatchSmile WatchKit App */,
 			);
 		};
 /* End PBXProject section */
@@ -208,6 +397,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		890B9E011AE1A72700511D5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				890B9E0A1AE1A72700511D5F /* Images.xcassets in Resources */,
+				890B9E0E1AE1A72700511D5F /* WatchSmile WatchKit App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		890B9E0B1AE1A72700511D5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				890B9E161AE1A72700511D5F /* Interface.storyboard in Resources */,
+				890B9E181AE1A72700511D5F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -215,9 +422,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				890B9DE21AE1A6D200511D5F /* SecondViewController.swift in Sources */,
+				890B9E381AE1A77700511D5F /* MWFeedItem.m in Sources */,
+				890B9E401AE1A77700511D5F /* NSString+XMLEntities.m in Sources */,
+				890B9E3A1AE1A77700511D5F /* MWFeedParser.m in Sources */,
+				890B9E441AE1AB3B00511D5F /* ViewController.swift in Sources */,
+				890B9E341AE1A77700511D5F /* GTMNSString+HTML.m in Sources */,
+				890B9E3E1AE1A77700511D5F /* NSString+HTML.m in Sources */,
+				890B9E3C1AE1A77700511D5F /* NSDate+InternetDateTime.m in Sources */,
 				890B9DDE1AE1A6D200511D5F /* AppDelegate.swift in Sources */,
-				890B9DE01AE1A6D200511D5F /* FirstViewController.swift in Sources */,
+				890B9E361AE1A77700511D5F /* MWFeedInfo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,6 +442,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		890B9DFF1AE1A72700511D5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				890B9E081AE1A72700511D5F /* InterfaceController.swift in Sources */,
+				890B9E351AE1A77700511D5F /* GTMNSString+HTML.m in Sources */,
+				890B9E411AE1A77700511D5F /* NSString+XMLEntities.m in Sources */,
+				890B9E451AE1AB3B00511D5F /* ViewController.swift in Sources */,
+				890B9E3B1AE1A77700511D5F /* MWFeedParser.m in Sources */,
+				890B9E3F1AE1A77700511D5F /* NSString+HTML.m in Sources */,
+				890B9E391AE1A77700511D5F /* MWFeedItem.m in Sources */,
+				890B9E3D1AE1A77700511D5F /* NSDate+InternetDateTime.m in Sources */,
+				890B9E371AE1A77700511D5F /* MWFeedInfo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -236,6 +465,16 @@
 			isa = PBXTargetDependency;
 			target = 890B9DD71AE1A6D200511D5F /* WatchSmile */;
 			targetProxy = 890B9DF01AE1A6D200511D5F /* PBXContainerItemProxy */;
+		};
+		890B9E101AE1A72700511D5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 890B9E0C1AE1A72700511D5F /* WatchSmile WatchKit App */;
+			targetProxy = 890B9E0F1AE1A72700511D5F /* PBXContainerItemProxy */;
+		};
+		890B9E1A1AE1A72700511D5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 890B9E021AE1A72700511D5F /* WatchSmile WatchKit Extension */;
+			targetProxy = 890B9E191AE1A72700511D5F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -254,6 +493,14 @@
 				890B9DE91AE1A6D200511D5F /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		890B9E141AE1A72700511D5F /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				890B9E151AE1A72700511D5F /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -295,9 +542,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "d51a5ba7-b461-40a7-9918-745040d14d18";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -320,7 +568,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Jeffrey Newman (5R3X245WBY)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Jeffrey Newman (5R3X245WBY)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -333,8 +582,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "d51a5ba7-b461-40a7-9918-745040d14d18";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -344,9 +594,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = WatchSmile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f58e7d6f-4042-4f80-93c6-b5a195b2a152";
+				SWIFT_OBJC_BRIDGING_HEADER = "WatchSmile/WatchSmile-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -354,16 +609,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Jeffrey Newman (5R3X245WBY)";
 				INFOPLIST_FILE = WatchSmile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f58e7d6f-4042-4f80-93c6-b5a195b2a152";
+				SWIFT_OBJC_BRIDGING_HEADER = "WatchSmile/WatchSmile-Bridging-Header.h";
 			};
 			name = Release;
 		};
 		890B9DFD1AE1A6D200511D5F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -375,6 +633,7 @@
 				INFOPLIST_FILE = WatchSmileTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WatchSmile.app/WatchSmile";
 			};
 			name = Debug;
@@ -382,7 +641,7 @@
 		890B9DFE1AE1A6D200511D5F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -390,7 +649,77 @@
 				INFOPLIST_FILE = WatchSmileTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WatchSmile.app/WatchSmile";
+			};
+			name = Release;
+		};
+		890B9E1D1AE1A72700511D5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = WatchSmile_WatchKit_Extension;
+				INFOPLIST_FILE = "WatchSmile WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "62689d9c-1955-4479-b408-49cc3813b0ac";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		890B9E1E1AE1A72700511D5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Jeffrey Newman (5R3X245WBY)";
+				IBSC_MODULE = WatchSmile_WatchKit_Extension;
+				INFOPLIST_FILE = "WatchSmile WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "62689d9c-1955-4479-b408-49cc3813b0ac";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		890B9E201AE1A72700511D5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WatchSmile WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "5bd1de01-ca4a-4a0f-9fa5-a80f2340dbe4";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "WatchSmile/WatchSmile WatchKit Extension-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		890B9E211AE1A72700511D5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Jeffrey Newman (5R3X245WBY)";
+				INFOPLIST_FILE = "WatchSmile WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "5bd1de01-ca4a-4a0f-9fa5-a80f2340dbe4";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "WatchSmile/WatchSmile WatchKit Extension-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -413,6 +742,7 @@
 				890B9DFB1AE1A6D200511D5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		890B9DFC1AE1A6D200511D5F /* Build configuration list for PBXNativeTarget "WatchSmileTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +751,25 @@
 				890B9DFE1AE1A6D200511D5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		890B9E1C1AE1A72700511D5F /* Build configuration list for PBXNativeTarget "WatchSmile WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				890B9E1D1AE1A72700511D5F /* Debug */,
+				890B9E1E1AE1A72700511D5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		890B9E1F1AE1A72700511D5F /* Build configuration list for PBXNativeTarget "WatchSmile WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				890B9E201AE1A72700511D5F /* Debug */,
+				890B9E211AE1A72700511D5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

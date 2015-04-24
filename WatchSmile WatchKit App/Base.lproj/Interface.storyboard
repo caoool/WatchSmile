@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7531" systemVersion="14D131" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Fhg-x1-IN3">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aPU-ky-RNl">
+            <objects>
+                <controller id="Fhg-x1-IN3" customClass="InterfaceController" customModule="WatchSmile_WatchKit_Extension">
+                    <items>
+                        <label width="1" alignment="left" text="Joke" numberOfLines="0" id="Q3U-EM-Mkb"/>
+                        <button width="1" alignment="left" title="Next Smile! 😆 " id="oOW-mP-jsG">
+                            <color key="backgroundColor" red="0.47450980390000003" green="0.35294117650000001" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                            <connections>
+                                <action selector="nextJoke" destination="Fhg-x1-IN3" id="yWx-Rj-7UH"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="button" destination="oOW-mP-jsG" id="vpN-02-QHe"/>
+                        <outlet property="jokeLabel" destination="Q3U-EM-Mkb" id="Qr5-bR-Jsr"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="336" y="416"/>
+        </scene>
+    </scenes>
+</document>
